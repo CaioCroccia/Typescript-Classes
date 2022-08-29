@@ -15,5 +15,5 @@ const appDiv: HTMLElement = document.getElementById('app');
 
 appDiv.innerHTML = `
 <h1>Classes</h1>
-
+<h2>${greeter.greet()}</h2>
 `
